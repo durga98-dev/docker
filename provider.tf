@@ -7,7 +7,7 @@ terraform {
     }
 
     backend "s3" {
-    bucket = "expense-docker"
+    bucket = "expense-docker1"
     key = "docker_ec2_info"
     dynamodb_table = "state-locking"
     region = "us-east-1"
